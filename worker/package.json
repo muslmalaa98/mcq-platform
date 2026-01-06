@@ -1,0 +1,12 @@
+{
+  "name": "mcq-platform-worker",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev --port 8787",
+    "deploy": "wrangler deploy",
+    "data:build": "node scripts/csv-to-json.mjs",
+    "codes:hash": "node scripts/hash-codes.mjs"
+  }
+}

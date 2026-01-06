@@ -1,0 +1,29 @@
+{
+  "subjectId": "biochem",
+  "questions": [
+    {
+      "id": "1",
+      "q": "Water formula is H~2~O",
+      "options": [
+        { "k": "A", "text": "CO2" },
+        { "k": "B", "text": "H~2~O" },
+        { "k": "C", "text": "NaCl" },
+        { "k": "D", "text": "O2" }
+      ],
+      "correct": "B",
+      "explanation": "H~2~O means two hydrogen atoms."
+    },
+    {
+      "id": "2",
+      "q": "If x=3 then x^2^ equals?",
+      "options": [
+        { "k": "A", "text": "6" },
+        { "k": "B", "text": "9" },
+        { "k": "C", "text": "12" },
+        { "k": "D", "text": "3" }
+      ],
+      "correct": "B",
+      "explanation": "x^2^ = x*x = 9"
+    }
+  ]
+}

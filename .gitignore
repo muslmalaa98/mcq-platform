@@ -1,0 +1,28 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Vite
+app/dist/
+app/.vite/
+
+# Wrangler
+worker/.wrangler/
+worker/.dev.vars
+
+# Secrets / codes
+worker/codes.txt
+
+# OS
+.DS_Store
+Thumbs.db
+# --- Worker local secrets & cache ---
+worker/.dev.vars
+worker/.wrangler/
+worker/node_modules/
+
+# --- App deps ---
+app/node_modules/
+app/dist/

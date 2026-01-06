@@ -1,0 +1,23 @@
+name = "mcq-platform-api"
+main = "src/index.js"
+compatibility_date = "2026-01-06"
+
+[vars]
+SESSION_TTL_DAYS = "30"
+DEVICE_BINDING_ENABLED = "true"
+RATE_LIMIT_PER_MINUTE = "6"
+
+[[kv_namespaces]]
+binding = "CODES"
+id = "1021d566c3ba4865b4a85dc4e6da928b"
+preview_id = "1021d566c3ba4865b4a85dc4e6da928b"
+
+[[kv_namespaces]]
+binding = "SESSIONS"
+id = "263fc33fadd740a2b7b2bfbbb47463b2"
+preview_id = "263fc33fadd740a2b7b2bfbbb47463b2"
+
+[[kv_namespaces]]
+binding = "LIMITS"
+id = "aa29ebdb20804150b0bdcf8ab14e0700"
+preview_id = "aa29ebdb20804150b0bdcf8ab14e0700"
